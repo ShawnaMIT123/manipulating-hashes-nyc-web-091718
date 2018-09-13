@@ -15,7 +15,11 @@ def first_challenge
 
   #your code here
   contacts["Freddy Mercury"].each do |item, data|
-    if item == 
+    if item == :favorite_icecream_flavors
+      data.each do |flavor|
+        
+      end
+    end
   end
 
 
